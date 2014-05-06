@@ -1,11 +1,8 @@
 <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans:100,300,400,500,700,800,900,100italic,300italic,400italic,500italic,700italic,800italic,900italic' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=PT+Mono' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Philosopher:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:300,400,700,700italic' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Archivo+Narrow:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
 
 <style>
 
@@ -27,6 +24,10 @@ div #notebook { /* centre the content */
     padding-left: 1em;
     padding-right: 1em;
     padding-top: 2ex;
+}
+
+#notebook li { /* More space between bullet points */
+margin-top:0.8em;
 }
 
 div.cell { /* set cell width to about 80 chars */
@@ -99,6 +100,13 @@ div.text_cell_render{
     margin-top: 0.5em;
     display: block;
 }
+
+div.cell.code_cell {  /* Group area containing both code and output */
+background-color: rgba(171,165,131,0.3); 
+border-radius: 10px; /* rounded borders */
+padding: 1em;
+}
+
 </style>
 
 <script>
