@@ -11,12 +11,8 @@
     src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunss.otf');
 }
 
-.notebook_app #maintoolbar {
-    width: 500px
-}
-
 #notebook_panel { /* main background */
-    background: #333;
+    background: #888;
     color: #f6f6f6;
 }
 
