@@ -11,6 +11,10 @@
     src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunss.otf');
 }
 
+.notebook_app #maintoolbar {
+    width: 500px
+}
+
 #notebook_panel { /* main background */
     background: #333;
     color: #f6f6f6;
@@ -19,11 +23,12 @@
 div #notebook { /* centre the content */
     background: #fff;
     color: #333;
-    width: 900px;
+    width: 1000px;
     margin: auto;
     padding-left: 1em;
     padding-right: 1em;
     padding-top: 2ex;
+    overflow-x: auto;
 }
 
 #notebook li { /* More space between bullet points */
@@ -33,6 +38,12 @@ margin-top:0.8em;
 div.cell { /* set cell width to about 80 chars */
     width: 800px;
 }
+
+div.cell.border-box-sizing.code_cell.running { 
+    /* draw border around running cells */
+    border: 3px solid #111;
+}
+
 
 h1 {
     font-family: 'Philosopher', sans-serif;
