@@ -23,3 +23,5 @@ and click on Lesson 0.
 
 The design of the notebooks and their organization was inspired by [Lorena Barba](http://lorenabarba.com/)'s excellent
 [AeroPython course](https://github.com/barbagroup/AeroPython).
+
+If you spot any errors or would like to make improvements, pull requests are welcome!
