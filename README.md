@@ -14,7 +14,14 @@ To run the notebooks, you'll need:
 - Matplotlib
 - Clawpack >=5.1
 
-The last four can all be installed using pip.  To start the course, do
+The last four can all be installed using pip:
+
+    pip install ipython
+    pip install numpy
+    pip install matplotlib
+    pip install clawpack
+
+To start the course, do
 
     cd HyperPython/lessons
     ipython notebook
