@@ -14,7 +14,7 @@ To run the notebooks, you'll need:
 - Matplotlib
 - Clawpack >=5.1
 
-The last four can all be installed using pip:
+The last four can all be installed using [pip](http://pip.readthedocs.org/en/latest/installing.html):
 
     pip install ipython
     pip install numpy
