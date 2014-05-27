@@ -34,4 +34,6 @@ The design of the notebooks and their organization was inspired by [Lorena Barba
 
 If you spot any errors or would like to make improvements, pull requests are welcome!
 
-Content provided under a Creative Commons Attribution license, CC-BY 4.0; code under MIT License. (c)2014 David I. Ketcheson
+Content provided under a Creative Commons Attribution license, CC-BY 4.0; code under MIT License.
+
+(c)2014 David I. Ketcheson
