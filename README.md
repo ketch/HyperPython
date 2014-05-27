@@ -23,7 +23,8 @@ The last four can all be installed using pip:
 
 To start the course, do
 
-    cd HyperPython/lessons
+    git clone https://github.com/ketch/HyperPython.git
+    cd HyperPython
     ipython notebook
     
 and click on Lesson 0.
