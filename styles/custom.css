@@ -1,15 +1,9 @@
 <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans:100,300,400,500,700,800,900,100italic,300italic,400italic,500italic,700italic,800italic,900italic' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=PT+Mono' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Philosopher:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 
 <style>
-
-@font-face {
-    font-family: "Computer Modern";
-    src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunss.otf');
-}
 
 #notebook_panel { /* main background */
     background: #888;
@@ -118,6 +112,7 @@ div.text_cell_render{
     margin-bottom: 1px;
     margin-top: 1px;
 }
+
 div.cell.code_cell {  /* Group area containing both code and output */
 background-color: rgba(171,165,131,0.3); 
 border-radius: 10px; /* rounded borders */
@@ -125,21 +120,3 @@ padding: 1em;
 }
 
 </style>
-
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-                        TeX: {
-                           extensions: ["AMSmath.js"],
-                           Macros: {N : "\\mathbb{N}"}
-                           },
-                tex2jax: {
-                    inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-                    displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
-                },
-                displayAlign: 'center', // Change this to 'center' to center equations.
-                "HTML-CSS": {
-                    styles: {'.MathJax_Display': {margin: "40em 40em 40em 40em",line-height : '200%', border: '1px solid ##CC0000' } },
-                    linebreaks: {'automatic': 'true'}
-                }
-        });
-</script>
