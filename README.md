@@ -8,7 +8,9 @@ taught in Gyor, Hungary in May 2014 as part of the
 
 ## Installation
 
-To run the notebooks, you'll need:
+The easiest way to run these is to create a free account on [SageMathCloud](cloud.sagemath.org).  Then create a new project, click "new file", type https://github.com/ketch/HyperPython.git into the box and hit enter.  That's it!
+
+To run the notebooks on your own computer, you'll need:
 
 - Python >=2.7
 - IPython >=1.2.0
@@ -16,7 +18,7 @@ To run the notebooks, you'll need:
 - Matplotlib
 - Clawpack >=5.1
 
-The last four can all be installed using pip:
+The last four can all be installed using [pip](http://pip.readthedocs.org/en/latest/installing.html):
 
     pip install ipython
     pip install numpy
@@ -29,7 +31,8 @@ Then clone or download the repository.
 
 To start the course, do
 
-    cd HyperPython/lessons
+    git clone https://github.com/ketch/HyperPython.git
+    cd HyperPython
     ipython notebook
     
 and click on Lesson 0.
@@ -43,4 +46,6 @@ The design of the notebooks and their organization was inspired by [Lorena Barba
 
 If you spot any errors or would like to make improvements, pull requests are welcome!
 
-Content provided under a Creative Commons Attribution license, CC-BY 4.0; code under MIT License. (c)2014 David I. Ketcheson
+Content provided under a Creative Commons Attribution license, CC-BY 4.0; code under MIT License.
+
+(c)2014 David I. Ketcheson
