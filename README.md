@@ -1,10 +1,12 @@
-HyperPython
-===========
+# HyperPython
+
 
 A brief and practical introduction to the solution of hyperbolic conservation laws.
 This set of IPython notebooks was originally prepared for a 1-day tutorial that I
 taught in Gyor, Hungary in May 2014 as part of the 
 [Workshop on Design, Simulation, Optimization and Control of Green Vehicles and Transportation](http://jkk.sze.hu/en_GB/program).
+
+## Installation
 
 To run the notebooks, you'll need:
 
@@ -21,6 +23,10 @@ The last four can all be installed using pip:
     pip install matplotlib
     pip install clawpack
 
+Then clone or download the repository.
+
+## Running the notebooks
+
 To start the course, do
 
     cd HyperPython/lessons
@@ -28,8 +34,12 @@ To start the course, do
     
 and click on Lesson 0.
 
+## Acknowledgment
+
 The design of the notebooks and their organization was inspired by [Lorena Barba](http://lorenabarba.com/)'s excellent
 [AeroPython course](https://github.com/barbagroup/AeroPython).
+
+## Contributing
 
 If you spot any errors or would like to make improvements, pull requests are welcome!
 
